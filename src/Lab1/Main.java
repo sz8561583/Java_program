@@ -18,7 +18,6 @@ public class Main {
             int index = stu.indexOf((Integer) p) + q;
             stu.remove((Integer) p);
             stu.add(index, (Integer) p);
-//            System.out.println(stu.toString());
         }
 
         for (int i = 0; i < stu.size(); i++) {
@@ -27,6 +26,7 @@ public class Main {
                 System.out.print(" ");
             else
                 System.out.println();
+
         }
     }
 }
