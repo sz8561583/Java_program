@@ -13,6 +13,7 @@ public class Main {
         int m = sc.nextInt();
         while (m-- > 0) {
             //学号为p的学生移动q位，q > 0向后移动， q < 0向前移动
+            //git
             int p = sc.nextInt();
             int q = sc.nextInt();
             int index = stu.indexOf((Integer) p) + q;
